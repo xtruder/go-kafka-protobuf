@@ -1,0 +1,4 @@
+[submodule "third-party/srclient"]
+	path = third-party/srclient
+	url = git@github.com:xtruder/srclient.git
+	branch = improvements
