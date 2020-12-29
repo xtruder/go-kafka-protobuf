@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package fixture;
+option go_package = "github.com/xtruder/synapse/protobuf/fixture";
+
+message Item {
+    string name = 1;
+    string value = 2;
+}

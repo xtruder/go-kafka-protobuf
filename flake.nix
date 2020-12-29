@@ -35,6 +35,7 @@
         shellHook = ''
           export PATH=$PWD/node_modules/.bin:~/go/bin:$PATH
           export POSTGRESQL_URL=postgres://user:password@postgres:5432/app?sslmode=disable
+          export SCHEMA_REGISTRY_URL=http://schema-registry:8081
         '';
       };
     };

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package go_kafka_protobuf;
-option go_package = "github.com/xtruder/synapse/proto";
-
-message Item {
-    string name = 1;
-    string value = 2;
-}
